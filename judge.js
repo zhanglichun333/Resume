@@ -21,13 +21,6 @@ function browserRedirect() {
     scriptNode.setAttribute("type", "text/javascript");
     scriptNode.setAttribute("src", "main.js");
     document.head.appendChild(scriptNode);
-
-    //加载css
-    // var linkNode = document.createElement("link");
-    // linkNode.setAttribute("rel", "stylesheet");
-    // linkNode.setAttribute("type", "text/css");
-    // linkNode.setAttribute("href", "print.css");
-    // document.head.appendChild(linkNode);
   } else {
     //手机端
     //加载css
