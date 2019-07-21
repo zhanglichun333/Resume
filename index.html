@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="prism/prism.css">
+  <link rel="stylesheet" href="print.css" media="print">
+
+  <link rel="stylesheet" type="text/css" media="screen and (orientation:landscape)" href="style.css">
+
+  <link rel="stylesheet" type="text/css" media="screen and (orientation:portrait)" href="m-style.css" />
+
+  <title>前端开发-张丽春-2019应届本科</title>
+  <style id="code_style" media="screen"></style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div id="options">
+      <pre id="code_body" class="breathe"></pre>
+      <div id="speed_btn">
+        <span id="description">点我调速呀~</span>
+        <span id="speed_status">🚲</span>
+      </div>
+    </div>
+    
+   <a class="downloadResume" href="前端开发-张丽春-2019应届本科.pdf" target="_blank" download="前端开发-张丽春-2019应届本科">下载 PDF 简历</a>
+    
+    <div id="paper"></div>
+    <div class="skipper">
+      <button id="skip_inputResume" class="blinkingButton">跳过简历书写 >></button>
+      <button id="skip_all" class="blinkingButton">跳过所有动画 >></button>
+    </div>
+    <img class="qrcode" src="./images/qrcode.png" alt="GoGoTodo">
+    <img class="avatar" src="./images/avatar.png" alt="头像" />
+    
+  </div>
+  <script src="prism/prism.js"></script>
+  <script src="marked.min.js"></script>
+  <script src="jquery-3.3.1.min.js"></script>
+  <script src="judge.js"></script>
+  <script>
+    browserRedirect(); //调用判断当前访问页面是手机端还是移动端
+  </script>
+
+</body>
+
+</html>
