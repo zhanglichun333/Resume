@@ -2,7 +2,7 @@ let resume = `# 张丽春 | 前端开发工程师 | 2019应届本科毕业生
 微信/电话: 13016042464 | zhanglichun333@qq.com  
 在线简历：https://zhanglichun333.github.io/resume/
 Github: https://github.com/zhanglichun333 
-技术博客: https://juejin.im/user/5c96cfb95188252d6d2fb510
+技术博客: https://juejin.im/user/5c96cfb95188252d6d2fb510/posts
 
 ## 专业技能
 
