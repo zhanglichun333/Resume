@@ -7,34 +7,36 @@ Github: https://github.com/zhanglichun333
 ## 专业技能
 
 - HTML5, CSS3 & JavaScript
-    - 掌握 HTML5 如header、nav等语义化标签等
-    - 掌握 CSS3 如动画、过渡、弹性盒子布局等
+    - 熟悉 HTML5 如header、nav等语义化标签等
+    - 熟悉 CSS3 如动画、过渡、弹性盒子布局等
     - 能够使用原生 JavaScript 做页面交互
 - Vue
-    - 掌握 vue 的 MVVM 设计模式、数据双向绑定原理等
-    - 掌握 Vue 生命周期函数、模板语法、基本指令、事件绑定、组件及组件传值等
+    - 熟悉 vue 的 MVVM 设计模式、数据双向绑定原理等
+    - 熟悉 Vue 生命周期函数、模板语法、基本指令、事件绑定、组件及组件传值等
     - vue 开发经验，能够用 vue-cli 脚手架搭建项目、结合 vue-router 路由、vuex 状态管理器等使用
 - 其他
     - 能够用Webpack进行项目构建，了解其loader和plugin
-    - 熟悉 Git 常用命令、把本地项目上传到github等
-    - 熟悉 Scss 的使用，理解嵌套规则、父选择器 & 、变量、混合等的使用
-    - 熟悉 jQuery 常用 API ，会使用$.ajax()异步请求。
-    - 熟悉 http 协议， cookie 和 session
+    - 了解小程序开发原理，开发流程.接口组件、验证授权等
+    - 了解 Git 常用命令、把本地项目上传到github等
+    - 了解 Scss 的使用，理解嵌套规则、父选择器 & 、变量、混合等的使用
+    - 了解 jQuery 常用 API ，会使用$.ajax()异步请求。
+    - 了解 http 协议， cookie 和 session
     - 对代码格式有强迫症，现在一直在养成 Standard Style 的代码风格
 
 ## 项目经验
 ### 购物车宣传页面
 - 关键词：\`HTML5\`、\`CSS3\`、\`jQuery\`、\`fullPage.js\` [源码链接](https://github.com/zhanglichun333/shopping-car.git)[预览](https://zhanglichun333.github.io/shopping-car/)
-- 描述：该项目使用了fullPage.js，它是一个基于 jQuery 的插件，结合css动画， 它能够很方便、很轻松的制作出全屏网站。
+- 描述：该项目使用了fullPage.js，它是一个基于 jQuery 的插件，并结合css动画及过渡，很方便、很轻松的制作出全屏网站。
 
-### TIM
-- 关键词：\`HTML5\`、\`CSS3\`、\`jQuery\`、\`stellar.js\` [源码链接](https://github.com/zhanglichun333/TIM.git)[预览](https://zhanglichun333.github.io/TIM/.)
-- 描述：该项目使用了stellar.js，它是一个jQuery插件，能很容易地给网站添加视差滚动效果。
+### 仿豆瓣评分小程序
+- 关键词：\`云开发\`、\`Vant-Weapp\`、\`WeUI\` [源码链接](https://github.com/zhanglichun333/Douban-Movie.git)
+- 描述：该项目使用了微信小程序云开发模式，它是一个仿豆瓣评分小程序，提供了最新的电影介绍及评论，包括上映影片的影讯查询，你可以记录想看或对看过的电影进行评价。
 
 ### 全栈开发美团网
 - 关键词：\`Nuxt.js\`、\`SSR渲染\`、\`Koa2\`、\`Element-ui\`、\`MongoDB\`、\`redis\`[博客](https://juejin.im/post/5d1b8f8be51d455d6c0ad97c)[源码链接](https://github.com/zhanglichun333/meituan.git)
 - 描述：此项目主要以Vue SSR+Koa2全栈技术为目标，最终实现美团网项目。前台以element-ui布局，后台以高德地图web服务api接口作为数据支撑。
 主要完成4个页面：美团首页(城市定位+search搜索+侧边导航栏+产品列表)、注册页面、登录页面、切换城市页面。
+
 
 
 ## 教育经历
