@@ -26,7 +26,7 @@ Github: https://github.com/zhanglichun333
 
 ## 项目经验
 ### 饿了么移动端项目
-- 关键词：\`vue\`、\`vue-router\`、\`axios\`、\`express\`[预览](http://49.235.58.56:8080)[源码链接](https://github.com/request/request-promise.git)
+- 关键词：\`vue\`、\`vue-router\`、\`axios\`、\`express\`[源码链接](https://github.com/request/request-promise.git)[预览](http://49.235.58.56:8080)
 - 描述：该项目提取“饿了么”外卖APP最核心的商家模块，包括商家介绍、商品列表、商品详情、客户评论等模块，可浏览商及添加至购物车。
 
 ### 豆瓣评分小程序
