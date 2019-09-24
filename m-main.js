@@ -8,10 +8,9 @@ QQ邮箱: zhanglichun333@qq.com
 - HTML5, CSS3 & JavaScript
     - 熟悉 HTML5 如header、nav等语义化标签等
     - 熟悉 CSS3 如动画、过渡、弹性盒子布局等
-    - 能够使用原生 JavaScript 做页面交互, 表单验证等, 略懂ES6语法 
+    - 能够使用原生 JavaScript 做页面交互, 如表单验证等, 略懂ES6语法 
 - Vue
-    - 熟悉 vue 的 MVVM 设计模式、数据双向绑定原理等
-    - 熟悉 Vue 生命周期函数、模板语法、基本指令、事件绑定、组件及组件传值等
+    - 熟悉 Vue MVVM 设计模式、生命周期函数、模板语法、基本指令、事件绑定、组件及组件传值等
     - vue 开发经验，能够用 vue-cli 脚手架搭建项目、结合 vue-router 路由、vuex 状态管理器等使用
     - 熟悉 Vue 移动端开发, em、rem 以及 Viewport/媒体查询等不同移动端设备适配页面
 - 其他
@@ -20,22 +19,22 @@ QQ邮箱: zhanglichun333@qq.com
     - 了解 Git 开发命令、 Gitlab、 禅道项目管理工具以及根据后端提供的API发出带参请求等
     - 了解 Scss 的使用，理解嵌套规则、父选择器 & 、变量、混合等的使用
     - 了解 jQuery 常用 API ，会使用$.ajax()异步请求。
-    - 了解 http 协议， cookie 和 session
+    - 了解 http 安全和协议， 比如cookie 和 session。
+    - 搭建过lunix云服务器， 了解其配置环境。
     - 对代码格式有强迫症，现在一直在养成 Standard Style 的代码风格
 
 ## 项目经验
 ### 饿了么移动端项目
 - 关键词：\`vue\`、\`vue-router\`、\`axios\`、\`express\`[源码链接](https://github.com/request/request-promise.git)
-- 描述：该项目提取外卖App最核心的商家模块（包括商品列表、商品详情、购物车添加、评论、商家介绍等各模块），高仿“饿了么”外卖APP。
+- 描述：该项目提取“饿了么”外卖APP最核心的商家模块，包括商家介绍、商品列表、商品详情、客户评论等模块，可浏览商及添加至购物车。
 
-### 仿豆瓣评分小程序
+### 豆瓣评分小程序
 - 关键词：\`云开发\`、\`Vant-Weapp\`、\`WeUI\` [源码链接](https://github.com/zhanglichun333/Douban-Movie.git)
 - 描述：该项目使用了微信小程序云开发模式，它是一个仿豆瓣评分小程序，提供了最新的电影介绍及评论，包括上映影片的影讯查询，你可以记录想看或对看过的电影进行评价。
 
-### 美团网PC端项目
-- 关键词：\`Nuxt.js\`、\`SSR渲染\`、\`Koa2\`、\`Element-ui\`、\`MongoDB\`、\`redis\`[博客](https://juejin.im/post/5d1b8f8be51d455d6c0ad97c)[源码链接](https://github.com/zhanglichun333/meituan.git)
-- 描述：此项目主要以Vue SSR+Koa2技术为目标，最终实现仿美团网项目。前台以element-ui布局，后台以高德地图web服务api接口作为数据支撑。
-主要完成4个页面：美团首页(城市定位+search搜索+侧边导航栏+产品列表)、注册页面、登录页面、切换城市页面。
+### 美团网全栈PC端项目
+- 关键词：\`Nuxt.js\`、\`vue\`、\`SSR渲染\`、\`Koa2\`、\`Element-ui\`、\`MongoDB\`、\`redis\`[源码链接](https://github.com/zhanglichun333/meituan.git)[博客](https://juejin.im/post/5d1b8f8be51d455d6c0ad97c)
+- 描述：此项目是一个仿美团网项目，主要完成4个页面：美团首页(城市定位+search搜索+侧边导航栏+产品列表)、注册页面、登录页面、切换城市页面。
 
 
 ## 教育经历
