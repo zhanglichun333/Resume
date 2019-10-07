@@ -20,12 +20,12 @@ QQ邮箱: zhanglichun333@qq.com
     - 了解 Scss 的使用，理解嵌套规则、父选择器 & 、变量、混合等的使用
     - 了解 jQuery 常用 API ，会使用$.ajax()异步请求。
     - 了解 http 安全和协议， 比如cookie 和 session。
-    - 搭建过lunix云服务器， 了解其配置环境。
+    - 搭建过linux云服务器， 了解其配置环境。
     - 对代码格式有强迫症，现在一直在养成 Standard Style 的代码风格
 
 ## 项目经验
 ### 饿了么移动端项目
-- 关键词：\`vue\`、\`vue-router\`、\`axios\`、\`express\`[预览](http://49.235.58.56:8080)[源码链接](https://github.com/request/request-promise.git)
+- 关键词：\`vue\`、\`vue-router\`、\`axios\`、\`express\`[源码链接](https://github.com/request/request-promise.git)[预览](http://39.108.170.50:8080)
 - 描述：该项目提取“饿了么”外卖APP最核心的商家模块，包括商家介绍、商品列表、商品详情、客户评论等模块，可浏览商及添加至购物车。
 
 ### 豆瓣评分小程序
