@@ -1,27 +1,28 @@
 let resume = `# 张丽春 | 前端开发工程师 | 2019应届本科毕业生
-微信/电话: 13016042464 | zhanglichun333@qq.com  
-在线简历：https://github.com/zhanglichun333/resume.git
+微信/电话: 13016042464 | zhanglichun333@qq.com | [在线简历](https://github.com/zhanglichun333/resume.git)
 Github: https://github.com/zhanglichun333 
 博客: https://juejin.im/user/5c96cfb95188252d6d2fb510/posts
 
 ## 专业技能
 
-- HTML5, CSS3 & JavaScript
-    - 熟悉 HTML5 如header、nav等语义化标签等
-    - 熟悉 CSS3 如动画、过渡、弹性盒子布局等
-    - 能够使用原生 JavaScript 做页面交互, 如表单验证等, 略懂ES6语法 
+- HTML5 & CSS3 & JavaScript & ES6
+    - 熟悉 HTML5 新语义化标签等， 熟悉 CSS3 如动画、过渡、弹性盒子布局等以及Scss/Less写法
+    - 熟悉 JavaScript 写数据处理，表单交互等业务代码，常用 ES6 语法写箭头函数，解构赋值等
 - Vue
     - 熟悉 Vue MVVM 设计模式、生命周期函数、模板语法、基本指令、事件绑定、组件及组件传值等
     - vue 开发经验，能够用 vue-cli 脚手架搭建项目、结合 vue-router 路由、vuex 状态管理器等使用
-    - 熟悉 Vue 移动端开发, em、rem 以及 Viewport/媒体查询等不同移动端设备适配页面
+    - 了解 Vue 移动端开发, em、rem 以及 Viewport/媒体查询等不同移动端设备适配页面
 - 其他
     - 了解小程序云开发原理，开发流程，接口及组件使用、验证授权等
     - 了解 Git 开发命令、 Gitlab、 禅道项目管理工具以及根据后端提供的API发出带参请求等
-    - 了解 Scss 的使用，理解嵌套规则、父选择器 & 、变量、混合等的使用
-    - 了解 jQuery 常用 API ，会使用$.ajax()异步请求。
-    - 了解 http 安全和协议， 比如cookie 和 session。
-    - 搭建过linux云服务器， 了解其配置环境。
-    - 对代码格式有强迫症，现在一直在养成 Standard Style 的代码风格
+    - 了解 http 安全和协议， 比如cookie、 session、localStorage 
+    - 搭建过 linux 云服务器以及安装各种工具 nginx/node.js 来搭建后端交互和代码，常用 linux 命令
+
+## 工作经验
+### 梅州市锐思科技有限公司
+2018/11 - 2019/5
+- 职位：\`前端开发 (实习)\` 
+- 工作内容：用 Vue 结合 Element-UI 框架完成一个企业后台管理项目，首页呈现数据的看板，还有设备保养、设备维修、设备保修等主要功能页面，其中包含表单、请求、渲染、权限、监控等功能
 
 ## 项目经验
 ### 饿了么移动端项目
@@ -35,7 +36,6 @@ Github: https://github.com/zhanglichun333
 ### 美团网全栈PC端项目
 - 关键词：\`Nuxt.js\`、\`vue\`、\`SSR渲染\`、\`Koa2\`、\`Element-ui\`、\`MongoDB\`、\`redis\`[源码链接](https://github.com/zhanglichun333/meituan.git)[博客](https://juejin.im/post/5d1b8f8be51d455d6c0ad97c)
 - 描述：此项目是一个仿美团网项目，主要完成4个页面：美团首页(城市定位+search搜索+侧边导航栏+产品列表)、注册页面、登录页面、切换城市页面。
-
 
 ## 教育经历
 ### 嘉应学院
