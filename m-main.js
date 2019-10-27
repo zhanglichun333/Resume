@@ -1,14 +1,15 @@
 let resume = `# 张丽春 | 前端开发工程师
 深圳 | 2019应届本科毕业生
 微信/电话: 13016042464
-QQ邮箱: zhanglichun333@qq.com 
+QQ邮箱: zhanglichun333@qq.com | [在线简历](https://github.com/zhanglichun333/resume.git)
+Github: https://github.com/zhanglichun333 
+博客: https://juejin.im/user/5c96cfb95188252d6d2fb510/posts
 
 ## 专业技能
 
 - HTML5, CSS3 & JavaScript
-    - 熟悉 HTML5 如header、nav等语义化标签等
-    - 熟悉 CSS3 如动画、过渡、弹性盒子布局等
-    - 能够使用原生 JavaScript 做页面交互, 如表单验证等, 略懂ES6语法 
+    - 熟悉 HTML5 新语义化标签等， 熟悉 CSS3 如动画、过渡、弹性盒子布局等以及Scss/Less写法
+    - 熟悉 JavaScript 写数据处理，表单交互等业务代码，常用 ES6 语法写箭头函数，解构赋值等
 - Vue
     - 熟悉 Vue MVVM 设计模式、生命周期函数、模板语法、基本指令、事件绑定、组件及组件传值等
     - vue 开发经验，能够用 vue-cli 脚手架搭建项目、结合 vue-router 路由、vuex 状态管理器等使用
@@ -20,8 +21,14 @@ QQ邮箱: zhanglichun333@qq.com
     - 了解 Scss 的使用，理解嵌套规则、父选择器 & 、变量、混合等的使用
     - 了解 jQuery 常用 API ，会使用$.ajax()异步请求。
     - 了解 http 安全和协议， 比如cookie 和 session。
-    - 搭建过linux云服务器， 了解其配置环境。
+    - 搭建过 linux 云服务器以及安装各种工具nginx/node.js来搭建后端交互和代码，常用linux命令
     - 对代码格式有强迫症，现在一直在养成 Standard Style 的代码风格
+
+## 工作经验
+### 梅州市锐思科技有限公司
+2018/11 - 2019/5
+- 职位：\`前端开发 (实习)\` 
+- 工作内容：用Vue结合Element-UI框架完成一个企业后台管理项目，首页呈现数据的看板，还有设备保养、设备维修、设备保修等主要功能页面，其中包含表单、请求、渲染、权限、监控等功能
 
 ## 项目经验
 ### 饿了么移动端项目
