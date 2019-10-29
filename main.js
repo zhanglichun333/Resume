@@ -27,15 +27,15 @@ Github: https://github.com/zhanglichun333
 ## 项目经验
 ### 饿了么移动端项目
 - 关键词：\`vue\`、\`vue-router\`、\`axios\`、\`express\`[源码链接](https://github.com/request/request-promise.git)[预览](http://39.108.170.50:8080)
-- 描述：该项目提取“饿了么”外卖APP最核心的商家模块，包括商家介绍、商品列表、商品详情、客户评论等模块，可浏览商及添加至购物车。
+- 职责: 用 Vue 写总体框架，vue-router 搭建路由，axios 来封装请求，把请求的数据保存到状态管理 vuex 中，后端 linux 服务器用 node.js + express 搭建, 用 nginx 做反向代理，已部署上线。
 
 ### 豆瓣评分小程序
 - 关键词：\`云开发\`、\`Vant-Weapp\`、\`WeUI\` [源码链接](https://github.com/zhanglichun333/Douban-Movie.git)
-- 描述：该项目使用了微信小程序云开发模式，它是一个仿豆瓣评分小程序，提供了最新的电影介绍及评论，包括上映影片的影讯查询，你可以记录想看或对看过的电影进行评价。
+- 职责: 用原生小程序结合 Vant-Weapp UI组件搭建总体框架，小细节用WeUI补充，后端用云服务器负责接收请求，在生命周期中进行相应的业务请求代码，主要用移动端类的 flex 布局写界面样式。
 
 ### 美团网全栈PC端项目
 - 关键词：\`Nuxt.js\`、\`vue\`、\`SSR渲染\`、\`Koa2\`、\`Element-ui\`、\`MongoDB\`、\`redis\`[源码链接](https://github.com/zhanglichun333/meituan.git)[博客](https://juejin.im/post/5d1b8f8be51d455d6c0ad97c)
-- 描述：此项目是一个仿美团网项目，主要完成4个页面：美团首页(城市定位+search搜索+侧边导航栏+产品列表)、注册页面、登录页面、切换城市页面。
+- 职责: SSR 渲染来进行首页 SEO 优化，Vue+Element-UI 为主，后端用 koa2搭建并操作 MongoDB 数据库，用 passport 和 redis 进行账号注册登录验证等，还有用高德 API 做定位和数据内容。
 
 ## 教育经历
 ### 嘉应学院
