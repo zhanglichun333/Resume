@@ -242,7 +242,7 @@ writeCode(code_ready, '').then(() => {
   })
 })
 
-var speedCode = 1, duration = 80
+var speedCode = 1, duration = 0
 $('#speed_btn').click(() => {
   speedCode += 1
   if (speedCode > 3) {
