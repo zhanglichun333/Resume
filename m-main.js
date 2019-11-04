@@ -15,20 +15,13 @@ Github: https://github.com/zhanglichun333
     - vue 开发经验，能够用 vue-cli 脚手架搭建项目、结合 vue-router 路由、vuex 状态管理器等使用
     - 熟悉 Vue 移动端开发, em、rem 以及 Viewport/媒体查询等不同移动端设备适配页面
 - 其他
-    - 能够用Webpack进行项目构建，了解其loader和plugin
-    - 了解小程序云开发原理，开发流程，接口及组件使用、验证授权等
+    - 了解小程序云开发原理，开发流程，接口及组件使用、验证授权、flex布局、屏幕适配等
     - 了解 Git 开发命令、 Gitlab、 禅道项目管理工具以及根据后端提供的API发出带参请求等
-    - 了解 Scss 的使用，理解嵌套规则、父选择器 & 、变量、混合等的使用
-    - 了解 jQuery 常用 API ，会使用$.ajax()异步请求。
-    - 了解 http 安全和协议， 比如cookie 和 session。
-    - 搭建过 linux 云服务器以及安装各种工具nginx/node.js来搭建后端交互和代码，常用linux命令
-    - 对代码格式有强迫症，现在一直在养成 Standard Style 的代码风格
-
-## 工作经验
-### 梅州市悦思智能科技有限公司
-2018/11 - 2019/4
-- 职位：\`前端开发 (实习)\` 
-- 工作内容：用Vue结合Element-UI框架完成一个企业后台管理项目，首页呈现数据的看板，还有设备保养、设备维修、设备保修等主要功能页面，其中包含表单、请求、渲染、权限、监控等功能
+    - 了解 http 安全和协议， 比如cookie、 session、localStorage 
+    - 搭建过 linux 云服务器以及安装各种工具 nginx/node.js 来搭建后端交互和代码，常用 linux 命令
+- 自我描述
+    - 对代码格式有强迫症，追求简洁高效的代码，现在一直以 Standard Style 的代码风格编写代码
+    - 拥抱新技术的出现和学习，现正学习 react + antd-pro 与 react-native
 
 ## 项目经验
 ### 饿了么移动端项目

@@ -1,5 +1,6 @@
 let resume = `# 张丽春 | 前端开发工程师 | 2019应届本科毕业生
-微信/电话: 13016042464 | zhanglichun333@qq.com | [在线简历](https://github.com/zhanglichun333/resume.git)
+微信/电话: 13016042464 | zhanglichun333@qq.com
+在线简历：https://github.com/zhanglichun333/resume.git
 Github: https://github.com/zhanglichun333 
 博客: https://juejin.im/user/5c96cfb95188252d6d2fb510/posts
 
@@ -13,15 +14,16 @@ Github: https://github.com/zhanglichun333
     - vue 开发经验，能够用 vue-cli 脚手架搭建项目、结合 vue-router 路由、vuex 状态管理器等使用
     - 了解 Vue 移动端开发, em、rem 以及 Viewport/媒体查询等不同移动端设备适配页面
 - 其他
-    - 了解小程序云开发原理，开发流程，接口及组件使用、验证授权等
+    - 了解小程序云开发原理，开发流程，接口及组件使用、验证授权、flex布局、屏幕适配等
     - 了解 Git 开发命令、 Gitlab、 禅道项目管理工具以及根据后端提供的API发出带参请求等
     - 了解 http 安全和协议， 比如cookie、 session、localStorage 
     - 搭建过 linux 云服务器以及安装各种工具 nginx/node.js 来搭建后端交互和代码，常用 linux 命令
-
+- 自我描述
+    - 对代码格式有强迫症，追求简洁高效的代码，现在一直以 Standard Style 的代码风格编写代码
+    - 拥抱新技术的出现和学习，现正学习 react + antd-pro 与 react-native 
 
 ## 项目经验
 ### 饿了么移动端项目
-2019/8 - 2019/9
 - 关键词：\`vue\`、\`vue-router\`、\`axios\`、\`express\`[源码链接](https://github.com/request/request-promise.git)[预览](http://39.108.170.50:8080)
 - 职责: 用 Vue 写总体框架，vue-router 搭建路由，axios 来封装请求，把请求的数据保存到状态管理 vuex 中，后端 linux 服务器用 node.js + express 搭建, 用 nginx 做反向代理，已部署上线。
 
@@ -38,8 +40,8 @@ Github: https://github.com/zhanglichun333
 2015/9 - 2019/6
 - 专业学历：园林设计    大学本科
 - 技能证书：英语四六级证书   计算机二级证书
-`
 
+`
 let code_ready = `/*
  * 嗨，我是张丽春。
  * 我想用代码给你展示一下我的个人简历～
