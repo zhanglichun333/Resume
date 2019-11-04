@@ -60,7 +60,7 @@ let code_ready = `/*
 
 /* 添加一个过渡，使变化看起来更柔和 */
 * {
-  transition: all 0.3s;
+  transition: all 0.1s;
 }
 /* 加个背景色 */
 body {
@@ -91,7 +91,7 @@ body {
  * 让它们在被编辑的时候产生“呼吸”的效果
  */
 .breathe {
-  animation: breathe 3s ease 0s infinite;
+  animation: breathe 1s ease 0s infinite;
 }
 
 
@@ -250,19 +250,19 @@ $('#speed_btn').click(() => {
   }
   switch (speedCode) {
     case 1:
-      speed_status.innerText = '🚲'
-      description.innerText = '开小车车快点吧~'
-      duration = 70
+      speed_status.innerText = '🚀'
+      description.innerText = '慢点'
+      duration = 0
       break
     case 2:
       speed_status.innerText = '🚗'
-      description.innerText = '太废话了，我要最快！'
+      description.innerText = '再慢点'
       duration = 30
       break
     case 3:
-      speed_status.innerText = '🚀'
-      description.innerText = '现在是最快的速度拉~'
-      duration = 0
+      speed_status.innerText = '🚲'
+      description.innerText = '更慢点'
+      duration = 70
       break
     default:
       return 0
@@ -317,7 +317,7 @@ function createResume() {
       $('#skip_inputResume').click(() => {
         skipResumeInput().then(resolve)
       })
-    }, 1000)
+    }, 0)
   })
 }
 function adjustResume() {
@@ -333,7 +333,7 @@ function adjustResume() {
         $('#skip_all').click(() => {
           skipAll().then(reject)
         })
-      }, 1000)
+      }, 0)
     })
   })
 }
@@ -357,7 +357,7 @@ function addAndAdjustAvatar() {
       $('#paper').addClass('breathe')
       $('#code_body').removeClass('breathe')
       $('.skipper').remove()
-      setTimeout(resolve, 1000)
+      setTimeout(resolve, 0)
     })
   })
 }
@@ -367,26 +367,26 @@ function showDownloadButton() {
   // $('#options').append($('a.downloadResume'))
 }
 
-function skipResumeInput() {
-  return new Promise(resolve => {
-    setTimeout(() => {
-      window.clearTimeout(resumeInputTimeoutID)
-      paper.innerHTML = resume
-      paper.scrollTop = paper.scrollHeight
-      resolve()
-      $('#skip_inputResume').remove()
-    }, 0)
-  })
-}
-function skipAll() {
-  return new Promise(resolve => {
-    setTimeout(() => {
-      window.clearTimeout(codeInputTimeoutID)
-      resolve()
-      $('.skipper').remove()
-    }, 0)
-  })
-}
+// function skipResumeInput() {
+//   return new Promise(resolve => {
+//     setTimeout(() => {
+//       window.clearTimeout(resumeInputTimeoutID)
+//       paper.innerHTML = resume
+//       paper.scrollTop = paper.scrollHeight
+//       resolve()
+//       $('#skip_inputResume').remove()
+//     }, 0)
+//   })
+// }
+// function skipAll() {
+//   return new Promise(resolve => {
+//     setTimeout(() => {
+//       window.clearTimeout(codeInputTimeoutID)
+//       resolve()
+//       $('.skipper').remove()
+//     }, 0)
+//   })
+// }
 function showFinalResult() {
   $('#paper').addClass('breathe')
   $('#code_body').removeClass('breathe')

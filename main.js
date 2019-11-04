@@ -18,14 +18,10 @@ Github: https://github.com/zhanglichun333
     - 了解 http 安全和协议， 比如cookie、 session、localStorage 
     - 搭建过 linux 云服务器以及安装各种工具 nginx/node.js 来搭建后端交互和代码，常用 linux 命令
 
-## 工作经验
-### 梅州市锐思科技有限公司
-2018/11 - 2019/4
-- 职位：\`前端开发 (实习)\` 
-- 工作内容：用 Vue 结合 Element-UI 框架完成一个企业后台管理项目，首页呈现数据的看板，还有设备保养、设备维修、设备保修等主要功能页面，其中包含表单、请求、渲染、权限、监控等功能
 
 ## 项目经验
 ### 饿了么移动端项目
+2019/8 - 2019/9
 - 关键词：\`vue\`、\`vue-router\`、\`axios\`、\`express\`[源码链接](https://github.com/request/request-promise.git)[预览](http://39.108.170.50:8080)
 - 职责: 用 Vue 写总体框架，vue-router 搭建路由，axios 来封装请求，把请求的数据保存到状态管理 vuex 中，后端 linux 服务器用 node.js + express 搭建, 用 nginx 做反向代理，已部署上线。
 
@@ -244,25 +240,26 @@ $('#speed_btn').click(() => {
   }
   switch (speedCode) {
     case 1:
-      speed_status.innerText = '🚲'
-      description.innerText = '开小车车快点吧~'
-      duration = 70
+      speed_status.innerText = '🚀'
+      description.innerText = '最快了'
+      duration = 0
       break
     case 2:
       speed_status.innerText = '🚗'
-      description.innerText = '太废话了，我要最快！'
+      description.innerText = '慢点'
       duration = 30
       break
     case 3:
-      speed_status.innerText = '🚀'
-      description.innerText = '现在是最快的速度拉~'
-      duration = 0
+      speed_status.innerText = '🚲'
+      description.innerText = '再慢点'
+      duration = 70
       break
     default:
       return 0
   }
 })
 
+// code_ready 嗨，你好~我是张丽春
 function writeCode(code, origin) {
   let n = 1
   return new Promise(resolve => {
@@ -282,6 +279,7 @@ function writeCode(code, origin) {
     }
   })
 }
+// resume 简历
 function writeResume() {
   let n = 1
   return new Promise(resolve => {
@@ -301,6 +299,7 @@ function writeResume() {
   })
 }
 
+// 简历书写
 function createResume() {
   return new Promise(resolve => {
     $('#paper').addClass('breathe')
@@ -311,13 +310,15 @@ function createResume() {
       $('#skip_inputResume').click(() => {
         skipResumeInput().then(resolve)
       })
-    }, 1000)
+    }, 0)
   })
 }
+// 调整简历
 function adjustResume() {
   return new Promise((resolve, reject) => {
     $('#code_body').addClass('breathe')
     $('#paper').removeClass('breathe')
+    $('#skip_inputResume').remove()
     writeCode(code_marked, code_ready).then(() => {
       structureResume()
       $('#paper')[0].scrollTop = 0
@@ -327,10 +328,11 @@ function adjustResume() {
         $('#skip_all').click(() => {
           skipAll().then(reject)
         })
-      }, 1000)
+      }, 0)
     })
   })
 }
+// 调整简历
 function structureResume() {
   $('#paper')[0].innerHTML = marked(resume)
   $('#paper').prepend('<div id="information"></div>', '<div id="skills"></div>', '<div id="jobs"></div>', '<div id="works"></div>', '<div id="education"></div>')
@@ -344,6 +346,7 @@ function structureResume() {
   $('#works').append($('h2:contains("项目")'), $('#paper').children().not($('div')))
   $('a[href="./images/qrcode.png"]').addClass('qrcode-trigger').append($('img.qrcode'))
 }
+// 调整头像
 function addAndAdjustAvatar() {
   return new Promise(resolve => {
     $('#information').append($('img.avatar'))
@@ -351,16 +354,17 @@ function addAndAdjustAvatar() {
       $('#paper').addClass('breathe')
       $('#code_body').removeClass('breathe')
       $('.skipper').remove()
-      setTimeout(resolve, 1000)
+      setTimeout(resolve, 0)
     })
   })
 }
+// 下载简历
 function showDownloadButton() {
   $('#options').css({ 'width': '32%' })
   $('a.downloadResume').addClass('show')
   $('#options').append($('a.downloadResume'))
 }
-
+// 简历书写按钮
 function skipResumeInput() {
   return new Promise(resolve => {
     setTimeout(() => {
@@ -372,6 +376,7 @@ function skipResumeInput() {
     }, 0)
   })
 }
+// 跳过动画按钮
 function skipAll() {
   return new Promise(resolve => {
     setTimeout(() => {
@@ -381,6 +386,7 @@ function skipAll() {
     }, 0)
   })
 }
+
 function showFinalResult() {
   $('#paper').addClass('breathe')
   $('#code_body').removeClass('breathe')
