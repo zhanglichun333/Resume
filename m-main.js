@@ -317,6 +317,7 @@ function adjustResume() {
   return new Promise((resolve, reject) => {
     $('#code_body').addClass('breathe')
     $('#paper').removeClass('breathe')
+    $('#skip_inputResume').remove()
     writeCode(code_marked, code_ready).then(() => {
       structureResume()
       $('#paper')[0].scrollTop = 0
@@ -360,26 +361,26 @@ function showDownloadButton() {
   // $('#options').append($('a.downloadResume'))
 }
 
-// function skipResumeInput() {
-//   return new Promise(resolve => {
-//     setTimeout(() => {
-//       window.clearTimeout(resumeInputTimeoutID)
-//       paper.innerHTML = resume
-//       paper.scrollTop = paper.scrollHeight
-//       resolve()
-//       $('#skip_inputResume').remove()
-//     }, 0)
-//   })
-// }
-// function skipAll() {
-//   return new Promise(resolve => {
-//     setTimeout(() => {
-//       window.clearTimeout(codeInputTimeoutID)
-//       resolve()
-//       $('.skipper').remove()
-//     }, 0)
-//   })
-// }
+function skipResumeInput() {
+  return new Promise(resolve => {
+    setTimeout(() => {
+      window.clearTimeout(resumeInputTimeoutID)
+      paper.innerHTML = resume
+      paper.scrollTop = paper.scrollHeight
+      resolve()
+      $('#skip_inputResume').remove()
+    }, 0)
+  })
+}
+function skipAll() {
+  return new Promise(resolve => {
+    setTimeout(() => {
+      window.clearTimeout(codeInputTimeoutID)
+      resolve()
+      $('.skipper').remove()
+    }, 0)
+  })
+}
 function showFinalResult() {
   $('#paper').addClass('breathe')
   $('#code_body').removeClass('breathe')
